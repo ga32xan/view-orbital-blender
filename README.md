@@ -27,14 +27,14 @@ So this is how it works:
 3a!. If the response is something like ``` isosurface1 created  with cutoff=0.0 min=0.0 max=0.0; isosurface count: 0 ``` than 3b for gaussian did not work, maybe you were impatient and did not wait until the confole windows of cubegen finished?  
 3b. click inside the workspace and do "File=> Export=> X3D Model"  
 3c. Save as "...-positive.x3d"  
-3c!. There should be an "OK" in the console ... otherwise check is you max write the file to another location!  
+3c!. There should be an "OK" in the console ... otherwise check is you may write the file to another location!  
 
-4a. create negative parity isosurface mesh with "isosurface -0.04 "filename.cub"  
+4a. create negative parity isosurface mesh with ``` isosurface cutoff -0.04 "filename.cub"  ```  
 4b. click inside the workspace and do "File=> Export=> X3D Model"  
 4c. Save as "...-negative.x3d"  
 
 -in blender
 1. import "...-positive.x3d" and "...-negative.x3d"
 
-Need ddifferent information?:
+Need different information?:
 http://blog.hartleygroup.org/2016/02/22/visualizing-molecular-isosurfaces-mos-etc-in-blender/
