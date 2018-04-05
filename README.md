@@ -21,7 +21,8 @@ So this is how it works:
 1. open structure .mol file
 2. open a console (File=> Console)
 
-3a. create positive parity isosurface mesh with "isosurface 0.04 "filename.cub"  
+3a. create positive parity isosurface mesh with 
+´´´isosurface "0.04" "filename.cub"  ´´´
 3b. click inside the workspace and do "File=> Export=> X3D Model"  
 3c. Save as "...-positive.x3d"
 
