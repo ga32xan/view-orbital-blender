@@ -7,8 +7,10 @@ So this is how it works:
 
 1. Build your structure in gaussview (or import from hyperchem etc.)
 2. calculate orbital information with whatever functional u want to
+2a. Wait ... This may take ~2days on a 4core i5 4690)
 3. "Edit => MOs" and choose what surfaces you want to show  
-3a. "Visualize => Isovalue (0.02) and Cube Grid (Fine) regulate the detail level of the created mesh  
+3a. "Visualize => Isovalue (0.04) and Cube Grid (Coarse) regulate the detail level of the created mesh  
+3b. Wait .... This may take some time (10min)
 
 4. "Results => Surfaces/contours"  
 4a. There should be already created surfaces for the orbital u'v chosen.  
