@@ -7,7 +7,7 @@ So this is how it works:
 
 1. Build your structure in gaussview (or import from hyperchem etc.)
 2. calculate orbital information with whatever functional u want to
-3. "Edit => MOs" and choose what surfaces you want to show
+3. "Edit => MOs" and choose what surfaces you want to show  
 3a. "Visualize => Isovalue (0.02) and Cube Grid (Fine) regulate the detail level of the created mesh  
 
 4. "Results => Surfaces/contours"  
