@@ -10,9 +10,9 @@ So this is how it works:
 2a. Wait ... This may take ~2days on a 4core i5 4690)
 3. "Edit => MOs" and choose what surfaces you want to show  
 3a. "Visualize => Isovalue (0.04) and Cube Grid (Coarse) regulate the detail level of the created mesh  
-3b. Wait .... This may take some time (10min)
+3b. Wait .... This may take some time (10min) ... There is a console window popping up that should close first
 
-4. "Results => Surfaces/contours"  
+4. GOTO "Results => Surfaces/contours"  
 4a. There should be already created surfaces for the orbital u'v chosen.  
 4b. Click on "Cube Actions => Save Cube" (up right)  
 4c. filename.cub file is generated and saved  
@@ -23,8 +23,9 @@ So this is how it works:
 1. open structure .mol file
 2. open a console (File=> Console)
 
-3a. create positive parity isosurface mesh with 
-``` isosurface "0.04" "filename.cub"  ```
+3a. create positive parity isosurface mesh with  
+``` isosurface "0.04" "filename.cub"  ```  
+if the response is something like ``` isosurface1 created  with cutoff=0.0 min=0.0 max=0.0; isosurface count: 0 ``` than 3b did not work, maybe you were impatient and did not wait until the confole windows of cubegen finished?
 3b. click inside the workspace and do "File=> Export=> X3D Model"  
 3c. Save as "...-positive.x3d"
 
