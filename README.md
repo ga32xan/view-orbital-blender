@@ -23,9 +23,8 @@ So this is how it works:
 1. open structure .mol file
 2. open a console (File=> Console)
 
-3a. create positive parity isosurface mesh with  
-``` isosurface "0.04" "filename.cub"  ```  
-if the response is something like ``` isosurface1 created  with cutoff=0.0 min=0.0 max=0.0; isosurface count: 0 ``` than 3b did not work, maybe you were impatient and did not wait until the confole windows of cubegen finished?
+3a. create positive parity isosurface mesh with ``` isosurface "0.04" "filename.cub"  ```  
+3a!. If the response is something like ``` isosurface1 created  with cutoff=0.0 min=0.0 max=0.0; isosurface count: 0 ``` than 3b did not work, maybe you were impatient and did not wait until the confole windows of cubegen finished?
 3b. click inside the workspace and do "File=> Export=> X3D Model"  
 3c. Save as "...-positive.x3d"
 
