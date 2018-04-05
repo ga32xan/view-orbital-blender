@@ -10,6 +10,7 @@ So this is how it works:
 3. "Edit => MOs" and choose what surfaces you want to show
 3a. "Visualize => Isovalue (0.02) and Cube Grid (Fine) 
 3b. regulate the detail level of the created mesh
+3c. regulate the detail level of the created mesh
 
 4. "Results => Surfaces/contours"  
 4a. There should be already created surfaces for the orbital u'v chosen.  
